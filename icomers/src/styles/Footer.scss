@@ -1,0 +1,18 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > h2 {
+        font-family: 'Varela Round', sans-serif;
+        color: #415A77;
+        font-weight: 600;
+        font-size: 1.5rem;
+        letter-spacing: .2rem;
+        cursor: pointer;
+        transition: .25s ease-in-out;
+        &:hover {
+            filter: drop-shadow(0 0 0.05rem #415A77);
+        }
+    }
+}

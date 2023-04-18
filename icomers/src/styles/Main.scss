@@ -1,0 +1,9 @@
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    > h1 {
+        color: #525252;
+    }
+}
