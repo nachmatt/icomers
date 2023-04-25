@@ -1,8 +1,9 @@
 import React from 'react'
+import '../../styles/main/Highlighted.scss'
 
 const Destacados = () => {
   return (
-    <div>
+    <div className='highlighted___container'>
         <ul>
             <li>Destacados</li>
             <li>Destacados</li>

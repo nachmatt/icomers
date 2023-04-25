@@ -1,0 +1,27 @@
+.highlighted___container{
+    margin-top: 2rem;
+    width: 96%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.highlighted___container ul{
+    padding: 0; //to avoid default ghost padding on the left
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.highlighted___container ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32%;
+    height: 100px;
+    border-radius: 10px;
+    background-color: slategray;
+}
+
+
+

@@ -1,13 +1,13 @@
-import logo from '../assets/logo.png'
+import borb from '../assets/borb 1.png'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import '../styles/NavBar.scss';
 
 const NavBar = () => {
     // hamburger menu
     return (
-        <div className='nav_container'>
-            <img src={logo} alt='logo'></img>
-            <ul className='nav_list_container'>
+        <div className='nav__container'>
+            <img src={borb} alt='logo' />
+            <ul className='nav__list_container'>
                 <li>We</li>
                 <li>Products</li>
                 <li>Orders</li>
